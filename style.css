@@ -1,0 +1,833 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #F7F7F7;
+    background-color:#FFFFFF ;
+}
+
+a{
+    text-decoration: none;
+    transition: 2s;
+}
+
+ul li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* HEADER */
+
+.header_section{
+    padding-bottom:36px;
+    padding-top: 0;
+}
+
+.container{
+    width:100%;
+    height:69px ;
+    margin:0 auto;
+    padding:0 10px;
+    border-bottom: 1px solid #80808047;
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.nav_main{
+    Width:473px;
+    Height:27px;
+    font-family:'Cardo', serif;
+    font-size: 17px;
+    color: #000000;
+}
+
+.nav_main_list{
+    display: flex;
+    gap:20px;
+}
+
+.nav_main_item a:hover{
+    color: rgb(234, 145, 30);
+    cursor: pointer;
+    transition: 2s;
+}
+.nav_main_link{
+    color: #000000;
+}
+
+.header_logo{
+    width: 190px;
+    height: 36px;
+    margin-left: 150px;
+}
+
+/* body */
+
+.banner{
+    Height:698px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background:url(./img/first.IMAGE.png) no-repeat;
+    background-size: 100%;
+}
+
+.title{
+    width: 807px;
+    height: 77px;
+    text-align: center;
+}
+
+.title h1{
+    font-family:'Cardo', serif;
+    font-weight: 700;
+    font-size: 27px;
+    color: #FFFFFF; 
+}
+
+/* кнопка */
+
+.btn{
+    Width:204px;
+    Height:33px;
+    margin-top: 31px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button{
+    border: 0;
+    width: inherit;
+    height: inherit;
+    background: transparent;
+    transition: 2s;
+}
+
+.btn button:hover{
+    background-color: #ffffff75;
+    cursor: pointer;
+}
+
+.btn span{
+    font-family:'Cardo', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/* вопрос */
+
+.question{
+    Width:324px;
+    Height:50px;
+    background-color: #050505;
+    position: absolute;
+    left: 20px;
+    bottom: 3px;
+}
+
+.question p{
+    font-family: 'Palatino Linotype';
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+/* Иконки с текстами*/
+
+.wrapper{
+    Width:100%;
+    Height:155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap:15px;
+    padding: 0 109px 0 69px;
+}
+
+.wrapper .inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.wrapper a,p{
+    font-family:'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+.wrapper a:hover{
+    cursor: pointer;
+    color: rgb(234, 145, 30);
+    transition: 2s;
+}
+
+
+/* picture */
+
+.picture{
+    Width:100%;
+    height:320px;
+    display: flex;
+}
+
+.picture_first{
+    width: 25%;
+    background: url(img/img.one.png);
+    background-size: 100%;
+}
+
+.picture_second{
+    width: 25%;
+    background: url(img/img.two.png);
+    background-size: 100%;
+}
+
+.picture_third{
+    width: 25%;
+    background: url(img/img.three.png);
+    background-size: 100%;
+}
+
+.picture_fourth{
+    width: 25%;
+    background: url(img/img.four.png);
+    background-size: 100%;
+}
+
+/* Cloe */
+
+.Cloe{
+    Width:100%;
+    padding-top:115px;
+    position: relative;
+}
+
+.Cloe_inner{
+    height:542px;
+    display: flex;
+}
+
+.Cloe_text{
+    width:480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #525252
+}
+
+.Cloe_text h2{
+    font-family:'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    color: #000000;
+    margin: 48px 48px 0px 0px;
+}
+
+.Cloe_text i{
+    font-family:'Cardo', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #000000;
+    margin-right: 48px;
+}
+
+.Cloe_text p{
+    font-family: 'Cardo', serif;
+    font-size: 15px;
+    color: #000000;
+    margin-right: 48px;
+}
+
+.Cloe_text span{
+    width: 437px;
+    height: 92px;
+    font-family:'Cardo', serif;
+    font-size: 18px;
+    color: #525252;
+    text-align: right;
+    line-height: 31px;
+}
+
+.Cloe_btn button{
+    width: 85px;
+    margin: 0px 48px 155px 0px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.Cloe_btn a{
+    font-family:'Inter', sans-serif;
+    font-size: 17px;
+    color: #000000;
+}
+
+.Cloe_btn a:hover{
+    cursor: pointer;
+    color:rgb(234, 145, 30);
+    transition: 2s;
+}
+
+.image{
+    Width:960px;
+    Height:542px;
+    position: absolute;
+    right: 0;
+    bottom:0;
+}
+
+/* Pelican */
+
+.Pelican{
+    Width:100%;
+    padding-top:15px;
+    position: relative;
+}
+
+.images{
+    Width:960px;
+    Height:542px;
+    position: absolute;
+    left: 0;
+    bottom:0;
+}
+
+.Pelican_inner{
+    height:542px;
+    width:480px;
+    margin-left: auto;
+
+}
+
+.Pelican_texts{
+    width:480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: flex-start;
+    color: #525252
+}
+
+.Pelican_texts h2{
+    font-family:'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    color: #000000;
+    margin: 96px 48px 0px 0px;
+}
+
+.Pelican_texts i{
+    font-family:'Cardo', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #000000;
+}
+
+.Pelican_texts p{
+    font-family: 'Cardo', serif;
+    font-size: 15px;
+    color: #000000;
+    margin-right: 48px;
+}
+
+.Pelican_texts span{
+    width: 384px;
+    height: 92px;
+    font-family:'Cardo', serif;
+    font-size: 18px;
+    color: #525252;
+    text-align:left;
+    line-height: 31px;
+}
+
+.Pelican_button button{
+    width: 85px;
+    margin: 0px 48px 155px 0px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.Pelican_button a{
+    font-family:'Inter', sans-serif;
+    font-size: 17px;
+    color: #000000;
+}
+
+.Pelican_button a:hover{
+    cursor: pointer;
+    color:rgb(234, 145, 30);
+    transition: 2s;
+}
+
+.image{
+    Width:960px;
+    Height:542px;
+    position: absolute;
+    right: 0;
+    bottom:0;
+}
+
+/* Alada */
+
+.Alada{
+    Width:100%;
+    padding-top:29px;
+    position: relative;
+}
+
+.Alada_inner{
+    height:542px;
+    width:480px;
+    padding-right: 48px;
+}
+
+.texts_Alada{
+    width:480px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: flex-end;
+    color: #525252
+}
+
+.texts_Alada h2{
+    font-family:'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    color: #000000;
+}
+
+.texts_Alada i{
+    font-family:'Cardo', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #000000;
+}
+
+i.red{
+    color:#BC1414;
+    font-size: 14px;
+    margin-top: 76px;
+}
+
+.texts_Alada p{
+    font-family: 'Cardo', serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.texts_Alada span{
+    width: 355px;
+    height: 92px;
+    font-family:'Cardo', serif;
+    font-size: 18px;
+    color: #525252;
+    text-align: right;
+    line-height: 31px;
+}
+
+.Alada_button button{
+    width: 85px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.Alada_button a{
+    font-family:'Inter', sans-serif;
+    font-size: 17px;
+    color: #000000;
+}
+
+.Alada_button a:hover{
+    cursor: pointer;
+    color:rgb(234, 145, 30);
+    transition: 2s;
+}
+
+.images_Alada{
+    Width:960px;
+    Height:542px;
+    position: absolute;
+    right: 0;
+    bottom:0;
+    top: 29px;
+}
+
+/* Alba Collection */
+
+.Alba{
+    Width:100%;
+    padding-top:29px;
+    position: relative;
+}
+
+.Alba_images{
+    Width:960px;
+    Height:542px;
+    position: absolute;
+    left: 0;
+    bottom:0;
+}
+
+.Alba_inner{
+    height:542px;
+    width:480px;
+    margin-left: auto;
+
+}
+
+.Alba_texts{
+    width:480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    color: #525252
+}
+
+.Alba_texts h2{
+    font-family:'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    color: #000000;
+    margin: 77px 48px 0px 0px;
+}
+
+.Alba_texts i{
+    font-family:'Cardo', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #000000;
+}
+
+.Alba_texts p{
+    font-family: 'Cardo', serif;
+    font-size: 15px;
+    color: #000000;
+    margin-right: 48px;
+}
+
+.Alba_texts span{
+    width: 360px;
+    height: 92px;
+    font-family:'Cardo', serif;
+    font-size: 18px;
+    color: #525252;
+    text-align:left;
+    line-height: 31px;
+}
+
+.Alba_button button{
+    width: 85px;
+    margin: 0px 48px 0px 0px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.Alba_button a{
+    font-family:'Inter', sans-serif;
+    font-size: 17px;
+    color: #000000;
+}
+
+.Alba_button a:hover{
+    cursor: pointer;
+    color:rgb(234, 145, 30);
+    transition: 2s;
+}
+
+.Alba_image{
+    Width:960px;
+    Height:542px;
+    position: absolute;
+    right: 0;
+    bottom:0;
+}
+
+.Alba.mini.img{
+    Width:230px;
+    Height:70px;
+    margin-top: 55px;
+}
+
+/* Batea */
+
+.Batea{
+    Width:100%;
+    height: 591px;
+    margin-top:12px;
+    position: relative;
+}
+
+.Batea_inner{
+    width:100%;
+    height:541px;
+    padding-top: 29px;
+    padding-bottom: 20px;
+}
+
+.texts_Batea{
+    width:480px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: flex-end;
+    color: #525252
+}
+
+.texts_Batea h2{
+    margin-top: 96px;
+    font-family:'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    color: #000000;
+}
+
+.texts_Batea i{
+    font-family:'Cardo', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #000000;
+}
+
+.texts_Batea p{
+    font-family: 'Cardo', serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.texts_Batea span{
+    width: 370px;
+    height: 123px;
+    font-family:'Cardo', serif;
+    font-size: 18px;
+    color: #525252;
+    text-align: right;
+    line-height: 31px;
+}
+
+.Batea_button button{
+    width: 85px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.Batea_button a{
+    font-family:'Inter', sans-serif;
+    font-size: 17px;
+    color: #000000;
+}
+
+.Batea_button a:hover{
+    cursor: pointer;
+    color:rgb(234, 145, 30);
+    transition: 2s;
+}
+
+.images_Batea{
+    Width:960px;
+    Height:542px;
+    position: absolute;
+    right: 0;
+    bottom:0;
+    top: 29px;
+}
+
+/* instagram */
+
+.instagram{
+    width: 100%;
+    height: 804px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 41px;
+    gap:21px;
+}
+
+.instagram_img{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.instagram h1{
+    font-family:'Cardo', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3A3A3A;
+    margin: 0 auto;
+}
+
+.instagram .sub{
+    font-family:'Cardo', serif;
+    font-size: 18px;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.instagram_img p{
+    font-family:'Cardo', serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.instagram_paula{
+    width: 367px;
+    height: 550px;
+    background-image: url(img/inst1.img.png);
+    position: relative;
+}
+
+.instagram_paula p{
+    margin: 46px 20px 481px 303px;
+}
+
+.instagram_paula img{
+    position: absolute;
+    right: 68px;
+    top: 49px;
+}
+
+.instagram_linda{
+    width: 367px;
+    height: 550px;
+    background-image: url(img/inst2.img.png);
+    position: relative;
+}
+
+.instagram_linda p{
+    margin: 48px 21px 480px 175px;
+}
+
+.instagram_linda img{
+    position: absolute;
+    right: 120px;
+    top: 49px;
+}
+
+.instagram_martagtarrio{
+    width: 367px;
+    height: 550px;
+    background-image: url(img/inst3.img.png);
+    position: relative;
+}
+
+.instagram_martagtarrio p{
+    margin: 48px 33px 480px 175px;
+}
+
+.instagram_martagtarrio img{
+    position: absolute;
+    right: 120px;
+    top: 49px;
+}
+
+
+.list{
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    gap:5px;
+}
+
+.list div{
+    width: 9px;
+    height:9px;
+    background-color: #000000;
+}
+
+/* блок отзыв */
+
+.feedback{
+    width: 100%;
+    height: 312px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback .opinion{
+    width: 1240px;
+    height: 148px;
+    text-align: center;
+}
+
+.opinion span{
+    color: #020202;
+    font-size: 20px;
+    font-family:'Cardo', serif;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.opinion p{
+    color: #000;
+    font-size: 15px;
+    font-family:'Cardo', serif;
+    line-height: 21px;
+    margin-top: 37px;
+}
+
+.box{
+    width: 100%;
+    height: 10px;
+    display: flex;
+    gap: 9px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .square_big{
+    width: 10px;
+    height: 10px;
+    background: #000;
+}
+
+.box .square_small{
+    width: 7px;
+    height: 7px;
+    background: #000;
+}
+
+.box .square{
+    width: 3px;
+    height: 3px;
+    background: #000;
+}
+
