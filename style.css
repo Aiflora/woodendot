@@ -6,7 +6,7 @@
 
 body{
     color: #F7F7F7;
-    background-color:#FFFFFF ;
+    background: #f6f6f6; 
 }
 
 a{
@@ -221,6 +221,7 @@ img{
 
 /* Cloe */
 
+
 .Cloe{
     Width:100%;
     padding-top:115px;
@@ -237,6 +238,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 32px;
     align-items: flex-end;
     color: #525252
 }
@@ -276,7 +278,7 @@ img{
 
 .Cloe_btn button{
     width: 85px;
-    margin: 0px 48px 155px 0px;
+    /* margin: 0px 48px 155px 0px; */
     border: 0;
     border-bottom: 1px solid black;
     background-color: transparent;
@@ -829,5 +831,99 @@ i.red{
     width: 3px;
     height: 3px;
     background: #000;
+}
+
+/* uniqueness */
+
+.uniqueness{
+    width: 100%;
+    height: 480vh;
+    display: flex;
+}
+
+.uniqueness img{
+    position: absolute;
+    top: 54px;
+    margin-bottom: 29px;
+}
+
+.uniqueness h4{
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-family:'Cardo', serif;
+    line-height: 35px;
+    margin-top: 29px;
+}
+
+.uniqueness p{
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Cardo', serif;
+    line-height: 27.857px;
+    margin: 20px 0 33px 0;
+}
+
+.uniqueness_button{
+    width: 77px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.uniqueness_button a{
+    font-family:'Cardo', serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.uniqueness_button a:hover{
+    cursor: pointer;
+    color:rgb(234, 145, 30);
+    transition: 2s;
+}
+
+
+.design{
+    width: 25%;
+    height: 370px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.footprint{
+    width: 25%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.made{
+    width: 25%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.wood{
+    width: 25%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
