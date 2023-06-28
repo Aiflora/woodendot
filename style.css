@@ -23,6 +23,18 @@ img{
     max-height: 100%;
 }
 
+section a{
+    font-family:'Inter', sans-serif;
+    font-size: 17px;
+    color: #000000;
+    border-bottom: 1px solid black;
+}
+
+section a:hover{
+    cursor: pointer;
+    color:rgb(234, 145, 30);
+    transition: 2s;
+}
 
 /* HEADER */
 
@@ -178,6 +190,7 @@ img{
     font-family:'Inter', sans-serif;
     font-size: 13px;
     color: #000000;
+    border: none;
 }
 
 .wrapper a:hover{
@@ -221,7 +234,6 @@ img{
 
 /* Cloe */
 
-
 .Cloe{
     Width:100%;
     padding-top:115px;
@@ -237,8 +249,7 @@ img{
     width:480px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 32px;
+    gap: 37px;
     align-items: flex-end;
     color: #525252
 }
@@ -276,26 +287,6 @@ img{
     line-height: 31px;
 }
 
-.Cloe_btn button{
-    width: 85px;
-    /* margin: 0px 48px 155px 0px; */
-    border: 0;
-    border-bottom: 1px solid black;
-    background-color: transparent;
-}
-
-.Cloe_btn a{
-    font-family:'Inter', sans-serif;
-    font-size: 17px;
-    color: #000000;
-}
-
-.Cloe_btn a:hover{
-    cursor: pointer;
-    color:rgb(234, 145, 30);
-    transition: 2s;
-}
-
 .image{
     Width:960px;
     Height:542px;
@@ -313,7 +304,6 @@ img{
 }
 
 .images{
-    Width:960px;
     Height:542px;
     position: absolute;
     left: 0;
@@ -324,14 +314,12 @@ img{
     height:542px;
     width:480px;
     margin-left: auto;
-
 }
 
 .Pelican_texts{
     width:480px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 32px;
     align-items: flex-start;
     color: #525252
@@ -369,26 +357,6 @@ img{
     line-height: 31px;
 }
 
-.Pelican_button button{
-    width: 85px;
-    margin: 0px 48px 155px 0px;
-    border: 0;
-    border-bottom: 1px solid black;
-    background-color: transparent;
-}
-
-.Pelican_button a{
-    font-family:'Inter', sans-serif;
-    font-size: 17px;
-    color: #000000;
-}
-
-.Pelican_button a:hover{
-    cursor: pointer;
-    color:rgb(234, 145, 30);
-    transition: 2s;
-}
-
 .image{
     Width:960px;
     Height:542px;
@@ -407,8 +375,6 @@ img{
 
 .Alada_inner{
     height:542px;
-    width:480px;
-    padding-right: 48px;
 }
 
 .texts_Alada{
@@ -456,25 +422,6 @@ i.red{
     line-height: 31px;
 }
 
-.Alada_button button{
-    width: 85px;
-    border: 0;
-    border-bottom: 1px solid black;
-    background-color: transparent;
-}
-
-.Alada_button a{
-    font-family:'Inter', sans-serif;
-    font-size: 17px;
-    color: #000000;
-}
-
-.Alada_button a:hover{
-    cursor: pointer;
-    color:rgb(234, 145, 30);
-    transition: 2s;
-}
-
 .images_Alada{
     Width:960px;
     Height:542px;
@@ -511,7 +458,7 @@ i.red{
     width:480px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: flex-start;
     gap: 32px;
     color: #525252
 }
@@ -548,26 +495,6 @@ i.red{
     line-height: 31px;
 }
 
-.Alba_button button{
-    width: 85px;
-    margin: 0px 48px 0px 0px;
-    border: 0;
-    border-bottom: 1px solid black;
-    background-color: transparent;
-}
-
-.Alba_button a{
-    font-family:'Inter', sans-serif;
-    font-size: 17px;
-    color: #000000;
-}
-
-.Alba_button a:hover{
-    cursor: pointer;
-    color:rgb(234, 145, 30);
-    transition: 2s;
-}
-
 .Alba_image{
     Width:960px;
     Height:542px;
@@ -580,7 +507,7 @@ i.red{
     Width:230px;
     Height:70px;
     margin-top: 55px;
-}
+} 
 
 /* Batea */
 
@@ -636,25 +563,6 @@ i.red{
     color: #525252;
     text-align: right;
     line-height: 31px;
-}
-
-.Batea_button button{
-    width: 85px;
-    border: 0;
-    border-bottom: 1px solid black;
-    background-color: transparent;
-}
-
-.Batea_button a{
-    font-family:'Inter', sans-serif;
-    font-size: 17px;
-    color: #000000;
-}
-
-.Batea_button a:hover{
-    cursor: pointer;
-    color:rgb(234, 145, 30);
-    transition: 2s;
 }
 
 .images_Batea{
@@ -837,14 +745,18 @@ i.red{
 
 .uniqueness{
     width: 100%;
-    height: 480vh;
+    height: 480px;
     display: flex;
+}
+
+.uniqueness_icon{
+    width: 95px;
+    height: 95px;
 }
 
 .uniqueness img{
     position: absolute;
     top: 54px;
-    margin-bottom: 29px;
 }
 
 .uniqueness h4{
@@ -856,34 +768,13 @@ i.red{
     margin-top: 29px;
 }
 
-.uniqueness p{
+.uniqueness span{
     color: #000;
     text-align: center;
     font-size: 15px;
     font-family:'Cardo', serif;
     line-height: 27.857px;
-    margin: 20px 0 33px 0;
 }
-
-.uniqueness_button{
-    width: 77px;
-    border: 0;
-    border-bottom: 1px solid black;
-    background-color: transparent;
-}
-
-.uniqueness_button a{
-    font-family:'Cardo', serif;
-    font-size: 15px;
-    color: #000000;
-}
-
-.uniqueness_button a:hover{
-    cursor: pointer;
-    color:rgb(234, 145, 30);
-    transition: 2s;
-}
-
 
 .design{
     width: 25%;
@@ -896,6 +787,12 @@ i.red{
     position: relative;
 }
 
+.design_span{
+    width: 280px;
+    height: 56px;
+    margin: 12px 0 33px 0;
+}
+
 .footprint{
     width: 25%;
     height: 370px;
@@ -904,6 +801,12 @@ i.red{
     flex-direction: column;
     align-items: center;
     position: relative;
+}
+
+.footprint_span{
+    width: 280px;
+    height: 56px;
+    margin: 12px 0 31px 0;
 }
 
 .made{
@@ -917,6 +820,12 @@ i.red{
     position: relative;
 }
 
+.made_span{
+    width: 280px;
+    height: 56px;
+    margin: 12px 0 34px 0;
+}
+
 .wood{
     width: 25%;
     height: 370px;
@@ -927,3 +836,133 @@ i.red{
     position: relative;
 }
 
+.wood_span{
+    width: 280px;
+    height: 56px;
+    margin: 12px 0 31px 0;
+}
+
+/* partnership */
+
+.partnership{
+    width: 100%;
+    height: 315px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 72px;
+}
+
+.partnership span{
+    color: #454545;
+    font-size: 20px;
+    font-family:'Cardo', serif;
+    letter-spacing: 0.3px;
+}
+
+.company{
+    width: 1420px;
+    height: 104px;
+    margin-top: 41px;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 448px;
+    background: #E9E9E9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.footer_aside{
+    width: 1140px;
+    height: 284.156px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px; 
+}
+
+.About, .Help, .More{
+    width: 280px;
+    height: 260px;
+}
+
+.footer_aside h2{
+    color: #000;
+    font-size: 21px;
+    font-family:'Cardo', serif;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.footer_aside li{
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-family:'Cardo', serif;
+    line-height: 2.5;
+}
+
+.footer_more{
+    width: 342px;
+    height: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 123px;
+
+}
+
+.footer_more span{
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Cardo', serif;
+    line-height: 27.857px;
+}
+
+.footer_btn button{
+    width: 250px;
+    font-family:'Cardo', serif;
+    font-size: 15px;
+    background: #F7F7F7;
+    border-radius: 1px solid black;
+}
+
+.footer_adv{
+    width: 1140px;
+    height: 104.094px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.footer_img{
+    display: flex;
+    width: 359.984px;
+    height: 28.109px;
+    margin: 0 100px;
+}
+
+.footer_adv p{
+    height: 20px;
+    color: #000;
+    font-size: 12px;
+    font-family:'Cardo', serif;
+    line-height: 22.286px;
+    margin-right: 10px;
+}
+
+.footer_adv .line{
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
