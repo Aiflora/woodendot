@@ -951,6 +951,7 @@ footer{
     width: 359.984px;
     height: 28.109px;
     margin: 0 100px;
+    gap: 10px;
 }
 
 .footer_adv p{
