@@ -83,7 +83,7 @@ section a:hover{
 .header_logo{
     width: 190px;
     height: 36px;
-    margin-left: 150px;
+    margin-left: 180px;
 }
 
 /* body */
@@ -851,7 +851,6 @@ i.red{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 72px;
 }
 
 .partnership span{
@@ -931,11 +930,10 @@ footer{
 }
 
 .footer_btn button{
-    width: 250px;
+    width: 220px;
     font-family:'Cardo', serif;
     font-size: 15px;
     background: #F7F7F7;
-    border-radius: 1px solid black;
 }
 
 .footer_adv{
@@ -944,6 +942,7 @@ footer{
     display: flex;
     margin: 0 auto;
     margin-top: 25px;
+    justify-content: space-around;
 }
 
 .footer_img{
@@ -965,5 +964,5 @@ footer{
 
 .footer_adv .line{
     border-left: 1px solid black;
-    padding-left: 10px;
+    padding-left: 20px;
 }
