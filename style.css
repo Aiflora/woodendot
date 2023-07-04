@@ -618,54 +618,53 @@ i.red{
 .instagram_paula{
     width: 367px;
     height: 550px;
+    padding: 20px;
     background-image: url(img/inst1.img.png);
-    position: relative;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.instagram_paula p{
-    margin: 46px 20px 481px 303px;
-}
-
-.instagram_paula img{
-    position: absolute;
-    right: 68px;
-    top: 49px;
+.paula_rl{
+    width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .instagram_linda{
     width: 367px;
     height: 550px;
+    padding: 20px;
     background-image: url(img/inst2.img.png);
-    position: relative;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.instagram_linda p{
-    margin: 48px 21px 480px 175px;
-}
-
-.instagram_linda img{
-    position: absolute;
-    right: 120px;
-    top: 49px;
+.linda_m{
+    width: 107px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .instagram_martagtarrio{
     width: 367px;
     height: 550px;
+    padding: 20px;
     background-image: url(img/inst3.img.png);
-    position: relative;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.instagram_martagtarrio p{
-    margin: 48px 33px 480px 175px;
+.martagtarrio{
+    width: 107px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
-
-.instagram_martagtarrio img{
-    position: absolute;
-    right: 120px;
-    top: 49px;
-}
-
 
 .list{
     width: 100%;
@@ -929,11 +928,12 @@ footer{
     line-height: 27.857px;
 }
 
-.footer_btn button{
+.footer_btn{
     width: 220px;
     font-family:'Cardo', serif;
     font-size: 15px;
     background: #F7F7F7;
+    border: 1px solid black;
 }
 
 .footer_adv{
